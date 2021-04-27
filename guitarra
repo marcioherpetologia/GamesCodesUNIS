@@ -1,1 +1,103 @@
 
+public class Guitarra
+{
+    //variaveis
+    private String numeroSerie, fabricante, modelo, tipo, madeira;
+    private double preco;
+    
+    //construtor
+    
+    public Guitarra(String numeroSerie, String fabricante, String modelo, String tipo, String madeira, double preco)
+    {
+        this.numeroSerie = numeroSerie;
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.tipo = tipo;
+        this.madeira = madeira;
+        this.preco = preco;
+    }
+    
+    //metodos
+    //Numero de Serie
+    
+    public String getNumeroSerie()
+    {
+        return numeroSerie;
+    }
+    
+    public void setNumeroSerie(String numeroSerie)
+    {
+        this.numeroSerie = numeroSerie;
+    }
+    
+    
+    //Fabricante
+    public String getFabricante()
+    {
+        return fabricante;
+    }
+    
+    public void setFabricante(String fabricante)
+    {
+        this.fabricante = fabricante;
+    }
+    
+    //Modelo
+    public String getModelo()
+    {
+        return modelo;
+    }
+    
+    public void setModelo(String modelo)
+    {
+        this.modelo = modelo;
+    }
+    
+    //Tipo
+    public String getTipo()
+    {
+        return tipo;
+    }
+    
+    public void setTipo(String tipo)
+    {
+        this.tipo = tipo;
+    }
+    
+    //Madeira
+    
+    public String getMadeira()
+    {
+        return madeira;
+    }
+    
+    public void setmadeira(String madeira)
+    {
+        this.madeira = madeira;
+    }
+    
+    //Preco
+    
+    public double getPreco()
+    {
+        return preco;
+    }
+    
+    public void setPreco(double Preco)
+    {
+        this.preco = preco;
+    }
+    
+    //Construtor
+    public static void main(String[] args)
+    {
+        Guitarra minhaGuitarra = new Guitarra("010256","Fender","Telecaster","Elétrica","Mogno", 1500);
+        
+        System.out.println(minhaGuitarra.getNumeroSerie());
+        System.out.println(minhaGuitarra.getMadeira());
+        System.out.println(minhaGuitarra.getTipo());
+        System.out.println(minhaGuitarra.getPreco());
+    }
+    
+    
+}
