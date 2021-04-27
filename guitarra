@@ -17,7 +17,7 @@ public class Guitarra
         this.preco = preco;
     }
     
-    //metodos
+    //Metodos
     //Numero de Serie
     
     public String getNumeroSerie()
