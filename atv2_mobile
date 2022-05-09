@@ -1,0 +1,86 @@
+//Unis_Atividade_2
+
+public class Contato : MonoBehaviour 
+{
+   
+   protected string nome;
+   protected string celular;
+
+
+    void Start()
+    { 
+
+      
+        
+    }
+
+      
+    void Update()
+    {
+        
+    }
+
+
+}
+
+//Outro script
+public abstract class Mensagem : Contato
+
+{
+   
+  protected Contato destinatatio;
+  protected string hovaEnvio;
+  protected string conteudo;
+
+
+    void Start()
+    { 
+
+      
+        
+    }
+
+      
+    void Update()
+    {
+        
+    }
+
+
+}
+
+//Outro script
+public class Whatsapp : Mensagem
+
+{
+    private Contato contatos;
+    private Mensagem mensagem;
+
+    void Start()
+    { 
+
+      
+        
+    }
+
+      
+    void Update()
+    {
+        
+    }
+
+
+    private void ListarContatos()
+    {
+
+
+    }
+
+    private void ListarMensagens()
+    {
+
+
+    }
+
+
+}
